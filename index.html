@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StudyPack</title>
+<meta name="description" content="StudyPack turns your Canvas course into an exam study page: game plan, notes, diagram, study-guide answers, practice quiz and a tutor.">
+<style>
+  :root { --ink: #18223a; --muted: #5d677c; --line: #dde2ec; --paper: #fbfbfd; --surface: #fff; --accent: #1e407c; --amber: #b7791f; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #e6e9f2; --muted: #a3abbd; --line: #313a4f; --paper: #121725; --surface: #182033; --accent: #8fb0ea; --amber: #e7b660; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .mark { width: 44px; height: 44px; border-radius: 10px; background: #1e407c; display: grid; place-items: center; }
+  h1 { font-family: Charter, "Bitstream Charter", Cambria, Georgia, serif; font-size: 2.2rem; margin: 0; }
+  h2 { font-family: Charter, "Bitstream Charter", Cambria, Georgia, serif; font-size: 1.25rem; margin-top: 2em; }
+  .lead { font-size: 1.15rem; margin: 18px 0 24px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  li strong { color: var(--ink); }
+  a { color: var(--accent); }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+  .btn { display: inline-block; padding: 9px 16px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); text-decoration: none; font-weight: 600; color: var(--ink); }
+  .btn.primary { background: #1e407c; border-color: #1e407c; color: #fff; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <div class="mark" aria-hidden="true">
+      <svg width="30" height="30" viewBox="0 0 100 100"><polygon points="12,24 47,30 47,82 12,76" fill="#fff"/><polygon points="88,24 53,30 53,82 88,76" fill="#facc5c"/></svg>
+    </div>
+    <h1>StudyPack</h1>
+  </div>
+  <p class="lead">Turn your Canvas course into a study page for your next exam.</p>
+  <p>Open your course's Modules page, click StudyPack, type the exam name and press Start. StudyPack figures out what the exam covers, reads your course files, and builds:</p>
+  <ul>
+    <li><strong>Game plan:</strong> exam date, what's covered, what your instructor flagged, and a study schedule</li>
+    <li><strong>Notes</strong> for every chapter, with comparison tables and key terms</li>
+    <li><strong>Visual summary:</strong> the diagram your study guide asks you to draw</li>
+    <li><strong>Study-guide answers</strong>, hidden until you're ready to check yourself</li>
+    <li><strong>Practice quiz:</strong> 40+ questions in your class's style, with explanations and hints</li>
+    <li><strong>Tutor:</strong> ask anything and get answers from your own course files</li>
+  </ul>
+
+  <h2>Get StudyPack</h2>
+  <p>StudyPack is a free Chrome extension. The Chrome Web Store link will be added here when it's published.</p>
+  <div class="links">
+    <a class="btn" href="privacy-policy.html">Privacy policy</a>
+    <a class="btn" href="mailto:studypack.help@gmail.com">Contact: studypack.help@gmail.com</a>
+  </div>
+
+  <h2>Privacy in short</h2>
+  <p>StudyPack has no server and no analytics. Your study pages stay in your browser, and your course materials go only to the AI you choose. <a href="privacy-policy.html">Read the full policy.</a></p>
+
+  <footer>
+    AI can make mistakes; check anything important against your course materials.<br>
+    StudyPack is not affiliated with or endorsed by Instructure, the maker of Canvas, or by Anthropic, OpenAI or Google.
+  </footer>
+</main>
+</body>
+</html>
